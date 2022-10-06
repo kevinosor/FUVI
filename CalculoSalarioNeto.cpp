@@ -48,9 +48,10 @@ int main (){
 	
 	//Resultados - 5ta parte 
 	cout << "Nombre del empleado: " << nombre << setw(8) << apellido <<endl;
- 	cout << "Su salario basico es de: " << salarioBasico <<endl;
-	cout << "Ingresos totales son" <<endl;
-	cout << "Su monto por antiguedad es de: " << ingresoAntiguedad <<endl;
+	cout <<left << setw(20) << "DATOS" << setw(10) << "MONTO" <<endl;
+ 	cout << "Su salario basico es de: " <<right << setw(20)<< salarioBasico <<endl;
+	cout << "-----Ingresos totales son-----" <<endl;
+	cout << "Su monto por antiguedad es de: " <<right << setw (20) << ingresoAntiguedad <<endl;
 	cout << "El monto de sus ingresos totales es de: " <<ingresoTotal <<endl;
 	cout << "-----Deducciones totales al empleado-----" <<endl;
 	cout << "Monto por sindicato es: " <<montoSindi <<endl;
@@ -61,6 +62,8 @@ int main (){
 	cout << "Su salario neto es de: " <<ingresoNeto <<endl;
 	cout << "-----Deducciones a la empresa-----" <<endl;
 	cout << "La deduccion a la empresa es de: " << INSSpatronal <<endl;
+	
+	
 	
 	
 	return 0;
